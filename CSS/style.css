@@ -142,22 +142,10 @@ footer.rodape {
     color: white;
   }
   
-  div.contato, div.inscricao {
+  div.contato {
     width: 45%;
   }
-  
-form#rodape-form {
-    display: flex;
-    align-items: center;
-    padding: 0.5rem 0rem 0rem 0rem;
-  }
-  
-  input.input-email[type="email"] {
-    width: 70%;
-    padding: 8px;
-    margin-right: 10px;
-  }
-  
+
   button#submit-button {
     padding: 8px 15px;
     background-color: #6C63FF;
@@ -465,7 +453,7 @@ form.form {
     flex-direction: column;
     align-items: center;
 
-    padding: 20px;
+    padding: 4rem;
     border-radius: 10px;
     background-color: #292665;
   }
