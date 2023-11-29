@@ -158,7 +158,7 @@ form#rodape-form {
     margin-right: 10px;
   }
   
-  button#rodape-button {
+  button#submit-button {
     padding: 8px 15px;
     background-color: #6C63FF;
     color: white;
@@ -168,7 +168,7 @@ form#rodape-form {
     transition: 0.8s;
   }
   
-  button#rodape-button:hover {
+  button#submit-button:hover {
     background-color: #504abc;
     transition: 0.8s;
   }
@@ -379,7 +379,7 @@ p.ft-p {
 section#demonstration-smart-watch {
     display: flex;
     flex-direction: column;
-    padding: 4rem 0rem 0rem 0rem;
+    padding: 4rem 0rem 3rem 0rem;
 }
 
 div.smart-watch {
@@ -389,7 +389,7 @@ div.smart-watch {
     background-color: #524e8a;
     border-radius: 10px;
     
-    padding: 2rem 5rem 2rem 3rem;
+    padding: 2rem 5rem 3rem 3rem;
     margin: 3rem 8rem 3rem 5rem;
     
 }
@@ -433,3 +433,83 @@ div.smart-watch-img {
 img.watch-config {
     height: 150px;
 }
+
+/* Contato */
+/* Section Form */
+
+section#contato-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #6C63FF;
+
+    padding: 0rem 0rem 4rem 0rem;
+}
+
+div.contato-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+div#contato-text {
+    color: white;
+    font-size: 26px;
+    padding: 2rem;
+}
+
+form.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #292665;
+  }
+
+  div.form-group {
+    display: flex;
+    gap: 1rem;
+    color: white;
+    padding: 1rem;
+
+  }
+
+/*Section Tabela */
+section.contato-tabela {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    padding: 1rem 5rem 5rem 5rem;
+    background-color: #b1adfb;
+  }
+  
+  section.contato-tabela h2 {
+    color: #1f1d4d;
+    text-align: center;
+    padding: 3rem 0rem 3rem 0rem;
+  }
+  
+table.tabela-integrantes {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table.tabela-integrantes th {
+    background-color: #292665;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table.tabela-integrantes td {
+    text-align: center;
+    color: #1f1d4d;
+    font-size: 19px;
+    border: 1px solid #1f1d4d;
+    padding: 8px;
+  }
