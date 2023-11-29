@@ -472,10 +472,10 @@ section.contato-tabela {
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    padding: 1rem 5rem 5rem 5rem;
+    padding: 1rem 10rem 5rem 10rem;
   }
   
-  section.contato-tabela h2 {
+  h2.table-h2 {
     color: #1f1d4d;
     text-align: center;
     padding: 3rem 0rem 3rem 0rem;
@@ -489,7 +489,7 @@ table.tabela-integrantes {
   table.tabela-integrantes th {
     background-color: #292665;
     color: white;
-    padding: 10px;
+    padding: 1.2rem;
     text-align: center;
   }
   
@@ -498,5 +498,5 @@ table.tabela-integrantes {
     color: #1f1d4d;
     font-size: 19px;
     border: 1px solid #1f1d4d;
-    padding: 8px;
+    padding: 1rem;
   }
