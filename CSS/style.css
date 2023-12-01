@@ -141,6 +141,11 @@ footer.rodape {
 
     color: white;
   }
+
+div.rodape-contato{
+    display: flex;
+    flex-direction: column;
+}
   
   div.contato {
     width: 45%;
