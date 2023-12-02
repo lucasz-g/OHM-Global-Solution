@@ -505,3 +505,7 @@ table.tabela-integrantes {
     border: 1px solid #1f1d4d;
     padding: 1rem;
   }
+
+.pfp {
+    width: 100px;
+  }
