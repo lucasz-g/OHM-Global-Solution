@@ -82,7 +82,7 @@ h2.h2 {
     text-align: center;
 
     color: white;
-    font-size: 36px;
+    font-size: 38px;
     padding: 5rem 0rem 1rem 0rem;
 }
 
@@ -222,7 +222,6 @@ section#solution {
 h2.solution-h2 {
     padding: 3rem 0rem 2rem 0rem;
     color: #292665;
-
 }
 
 div#solution-text {
@@ -296,30 +295,33 @@ h3.demonstration-title {
 
 section#demonstration-mobile {
     display: flex;
-    padding: 0rem 0rem 3rem 5rem;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+
+div.demonstration-container {
+    display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    width: 90%;
+    padding: 4rem;
 }
 
 div.demonstration-steps{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
-    padding: 0rem 1rem 1rem 0rem;
-    gap: 1rem;
-    font-size: 18px;
+    text-align: center;
     color: white;
-}
-
-h4.h4-steps {
-    display: flex;
-    gap: 1rem;
+    width: 30%;
 }
 
 div.step-3 {
-    padding-top: 6rem;
+    gap: 0.7rem;
+}
+
+svg.svg-arrow {
+    color: white;
+    text-align: center;
+    padding: 2rem;
 }
 
 img.mockup-config {
@@ -327,13 +329,19 @@ img.mockup-config {
 }
 
 img.dados-config {
-    display: flex;
-    align-self: center;
+    height: 450px;
+    width: 200px;
 }
 
 h4.h4-steps {
+    padding: 0rem 0rem 2rem 0rem;
     font-size: 20px;
 }
+
+h4.h4-dados {
+    padding: 0rem;
+}
+
 
 /* Section Features */
 section#demonstration-mobile-features {
@@ -343,10 +351,11 @@ section#demonstration-mobile-features {
     padding: 0rem 0rem 4rem 0rem;
 }
 
-h3#demonstration-features-title{
-    font-size: 25px;
+h3.h3-demonstration-features-title{
+    font-size: 34px;
     color: white;
-    padding: 4rem 0rem 2rem 10rem;
+    text-align: left;
+    padding: 4rem;
 }
 
 div#demonstration-features {
@@ -356,14 +365,20 @@ div#demonstration-features {
 
 div.ft {
     background-color: #444096;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 10px;
     width: 350px;
     text-align: center;
     font-size: 18px;
 }
 
+p.demo-description {
+    padding: 0rem 0rem 2rem 0rem;
+    font-weight: 500;
+}
+
 p.ft-p {
+    padding: 2rem;
     text-align: center;
     font-size: 16px;
 }
